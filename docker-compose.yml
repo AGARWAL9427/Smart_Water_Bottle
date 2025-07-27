@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    command: ["python", "-u", "./app/main.py"]
+    networks:
+      - my_network
+    ports:
+      - "8000:8000"
+    volumes:
+      - sqlite_data:/src/data  # persistent SQLite DB
+
+networks:
+  my_network:
+    driver: bridge
+
+volumes:
+  sqlite_data:
