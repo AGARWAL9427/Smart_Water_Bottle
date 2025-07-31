@@ -1,13 +1,32 @@
-## Status
+# Smart Water Bottle – Real-Time Hydration Monitoring System
 
-- Sensor data ingress code completed.
-- Docker has been setup.
-- time series database has been setup.
-- Docker connection to local machine established.
-- Setup backend in container
-- Setup frontend in container
-- Modularise the code
+An IoT-based smart water bottle that tracks water level in real-time using an ultrasonic sensor with Arduino. Sensor data is transmitted to a FastAPI backend, displayed via an HTML dashboard, and deployed on AWS EC2 using Docker.
 
+---
+
+## 🚀 Features
+
+- Real-time hydration tracking using Arduino + Ultrasonic Sensor
+- RESTful API built with FastAPI and Uvicorn
+- Clean HTML dashboard for data visualization
+- Simulated sensor (`faux_sensor.py`) for local testing
+- Dockerized backend and frontend for easy deployment
+- Hosted on AWS EC2 for remote access
+
+---
+
+## 🛠 Tech Stack
+
+- **Hardware:** Arduino Uno, HC-SR04 Ultrasonic Sensor
+- **Backend:** Python, FastAPI, Uvicorn
+- **Frontend:** HTML/CSS
+- **Deployment:** Docker, Docker Compose, AWS EC2
+
+---
+
+
+![Water Tracker Before](assets/Before.png)
+![Water Tracker After](assets/After.png)
 
 # Instructions to Run
 
