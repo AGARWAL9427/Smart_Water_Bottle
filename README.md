@@ -25,8 +25,8 @@ An IoT-based smart water bottle that tracks water level in real-time using an ul
 ---
 
 
-![Water Tracker Before](assets/Before.png)
-![Water Tracker After](assets/After.png)
+![Water Tracker Before](Assets/Before.png)
+![Water Tracker After](Assets/After.png)
 
 # Instructions to Run
 
