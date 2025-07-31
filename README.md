@@ -8,10 +8,6 @@
 - Setup frontend in container
 - Modularise the code
 
-## ToDo
-
-- Stop fetcher from crashing. It should retry instead.
-- 
 
 # Instructions to Run
 
